@@ -69,6 +69,7 @@ if (DESKTOP_APP_TEST_APPS OR TDESKTOP_BUILD_UPDATE_TESTS)
 endif()
 
 set_target_properties(Telegram PROPERTIES AUTOMOC ON)
+set_target_properties(Telegram PROPERTIES OUTPUT_NAME "baorqgram")
 
 target_link_libraries(Telegram
 PRIVATE
