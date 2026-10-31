@@ -144,3 +144,4 @@ jobs:
           name: baorqgram-windows-x64
           path: baorqgram-dist\
           retention-days: 14
+
