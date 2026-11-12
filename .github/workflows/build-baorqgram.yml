@@ -138,7 +138,7 @@ jobs:
           )
           if exist %OUT%\Updater.exe copy %OUT%\Updater.exe baorqgram-dist\
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         name: Upload baorqgram Artifact
         with:
           name: baorqgram-windows-x64
